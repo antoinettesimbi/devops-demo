@@ -5,7 +5,7 @@ def create_app():
 
     @app.route("/")
     def home():
-        return "Hello DevOps World!"
+        return "Hello DevOps"
 
     @app.route("/health")
     def health():
